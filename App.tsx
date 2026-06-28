@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
-import { NavBar } from './components/NavBar';
-import { Footer } from './components/Footer';
-import { HeroSection } from './components/sections/HeroSection';
-import { RoadmapSection } from './components/sections/RoadmapSection';
-import { QuizSection } from './components/sections/QuizSection';
-import { ProgressSection } from './components/sections/ProgressSection';
-import { InterviewSection } from './components/sections/InterviewSection';
+import { NavBar } from './NavBar';
+import { Footer } from './Footer';
+import { HeroSection } from './HeroSection';
+import { RoadmapSection } from './RoadmapSection';
+import { QuizSection } from './QuizSection';
+import { ProgressSection } from './ProgressSection';
+import { InterviewSection } from './InterviewSection';
 import { NavSection } from './types';
 
 export default function App() {

@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { GlassCard } from '../ui/GlassCard';
-import { Badge } from '../ui/Badge';
-import { EXCEL_ROADMAP, SQL_ROADMAP } from '../../data/roadmaps';
-import { TrackedTopic } from '../../types';
+import { GlassCard } from './GlassCard';
+import { Badge } from './Badge';
+import { EXCEL_ROADMAP, SQL_ROADMAP } from './roadmaps';
+import { TrackedTopic } from './types';
 
 function buildTopics(): TrackedTopic[] {
   return [

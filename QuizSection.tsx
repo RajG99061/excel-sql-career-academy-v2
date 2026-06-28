@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { GlassCard } from '../ui/GlassCard';
-import { Badge } from '../ui/Badge';
-import { QUIZ_QUESTIONS } from '../../data/quiz';
+import { GlassCard } from './GlassCard';
+import { Badge } from './Badge';
+import { QUIZ_QUESTIONS } from './quiz';
 
 interface AnswerRecord {
   correct: boolean;

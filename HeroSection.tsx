@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { GlassCard } from '../ui/GlassCard';
+import { GlassCard } from "./GlassCard";
 import { NavSection } from '../../types';
 
 interface HeroSectionProps {

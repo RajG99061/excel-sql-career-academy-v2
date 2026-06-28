@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { GlassCard } from '../ui/GlassCard';
-import { Badge } from '../ui/Badge';
-import { INTERVIEW_QS } from '../../data/interview';
+import { GlassCard } from './GlassCard';
+import { Badge } from './Badge';
+import { INTERVIEW_QS } from './interview';
 
 export function InterviewSection() {
   const [open, setOpen] = useState<number | null>(null);

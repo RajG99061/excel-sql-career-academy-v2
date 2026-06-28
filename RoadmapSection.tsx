@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { GlassCard } from '../ui/GlassCard';
-import { EXCEL_ROADMAP, SQL_ROADMAP } from '../../data/roadmaps';
+import { GlassCard } from './GlassCard';
+import { EXCEL_ROADMAP, SQL_ROADMAP } from './roadmaps';
 
 export function RoadmapSection() {
   const [tab, setTab] = useState<'excel' | 'sql'>('excel');
